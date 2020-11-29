@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "cFPgxyOfUieG16shO0CJ7CWJLjZQbSXxvlee5E358KQs+GQudO6V5rytdB7kFCEt55PwVsa9qsqMydamdtCO2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\source\\TheoClicker\\TheoClicker\\TheoClicker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\hotkeylistener\\1.4.0\\hotkeylistener.1.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HotkeyListener 1.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "HotkeyListener",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

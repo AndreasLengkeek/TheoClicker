@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HotkeyListener/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/HotkeyListener.dll": {}
+        },
+        "runtime": {
+          "lib/HotkeyListener.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotkeyListener/1.4.0": {
+      "sha512": "I0yVjbAmQYfkO3SaYciC3zh65xUnhP7g2rnHaEogWcSo5Qfi4vm/m5bTV9ynuq4K2IsjMfnRHPuDrpawxCKe2w==",
+      "type": "package",
+      "path": "hotkeylistener/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assets/hotkey-listener-icon.png",
+        "hotkeylistener.1.4.0.nupkg.sha512",
+        "hotkeylistener.nuspec",
+        "lib/HotkeyListener.dll",
+        "lib/HotkeyListener.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "HotkeyListener >= 1.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\andre\\source\\TheoClicker\\TheoClicker\\TheoClicker.csproj",
+      "projectName": "TheoClicker",
+      "projectPath": "C:\\Users\\andre\\source\\TheoClicker\\TheoClicker\\TheoClicker.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\source\\TheoClicker\\TheoClicker\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.sitefinity.com/nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://wealtho2.pkgs.visualstudio.com/_packaging/WealthO2/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "HotkeyListener": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015135\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HotkeyListener 1.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "HotkeyListener",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
